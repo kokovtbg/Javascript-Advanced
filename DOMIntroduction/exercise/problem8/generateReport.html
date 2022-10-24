@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="generateReport.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>"Employee "<input type="checkbox" name="employee"></th>
+            <th>"Department "<input type="checkbox" name="department"></th>
+            <th>"Status "<input type="checkbox" name="status"></th>
+            <th>"Date Hired "<input type="checkbox" name="date-hired"></th>
+            <th>"Benefits "<input type="checkbox" name="benefits"></th>
+            <th>"Compensation "<input type="checkbox" name="compensation"></th>
+            <th>"Rating "<input type="checkbox" name="rating"></th>
+        </tr>
+        <tr>
+            <td>Ivanov, Ivan</td>
+            <td>Human Resources</td>
+            <td>Full Time</td>
+            <td>15.09.2022</td>
+            <td>R</td>
+            <td>35.5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Ivanova, Maria</td>
+            <td>Human Resources</td>
+            <td>Full Time</td>
+            <td>22.09.2022</td>
+            <td>R</td>
+            <td>55.5</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <button type="submit" onclick="solve()">Generate Report</button>
+    <div>
+        <textarea id="output" cols="30" rows="10"></textarea>
+    </div>
+</body>
+</html>
